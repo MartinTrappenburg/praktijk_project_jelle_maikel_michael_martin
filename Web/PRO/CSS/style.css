@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    min-height: 100vh;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #BFBFBF26;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+header,
+main,
+footer
+{
+    padding: 0 150px;
+}
+
+header
+{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: #E10600;
+    color: #FFFFFF;
+}
+
+.logo
+{
+    font-size: 24px;
+}
+
+nav
+{
+    width: 250px;
+    font-size: 18px;
+}
+
+nav ul 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.andere_opleidingen
+{
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow,
+.arrow svg
+{
+    height: 100%;
+}
+
+.race-car
+{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+.race-car img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.road
+{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    
+    left: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+.road img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.main_text
+{
+    height: 0px;
+    width: 330px;
+    position: relative;
+    left: 60%;
+    top: 100px;
+    color: #000000;
+}
+
+.main_text .text
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+}
+
+.main_text span
+{
+    font-size: 48px;
+}
+
+.button
+{
+    margin-top: 50px;
+}
+
+.main_text button
+{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E10600;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.block_bg
+{
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    background-color: #bfbfbf27;
+}
+
+footer
+{
+    height: 60px;
+    margin-top: auto;
+    background-color: #E10600;
+}
