@@ -1,0 +1,27 @@
+header
+{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: #E10600;
+    color: #FFFFFF;
+}
+
+.logo
+{
+    font-size: 24px;
+}
+
+nav
+{
+    width: 250px;
+    font-size: 18px;
+}
+
+nav ul 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

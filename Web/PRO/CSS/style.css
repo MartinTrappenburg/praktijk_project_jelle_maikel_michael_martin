@@ -36,39 +36,15 @@ footer
     padding: 0 150px;
 }
 
-header
-{
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center ;
-    background-color: #E10600;
-    color: #FFFFFF;
-}
-
-.logo
-{
-    font-size: 24px;
-}
-
-nav
-{
-    width: 250px;
-    font-size: 18px;
-}
-
-nav ul 
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .andere_opleidingen
 {
     width: 200px;
     height: 20px;
     margin-top: 20px;
+}
+
+.andere_opleidingen a
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,6 +128,7 @@ nav ul
     font-size: 24px;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
 }
 
 .block_bg
@@ -162,11 +139,4 @@ nav ul
     left: 0;
     bottom: 30px;
     background-color: #bfbfbf27;
-}
-
-footer
-{
-    height: 60px;
-    margin-top: auto;
-    background-color: #E10600;
 }
