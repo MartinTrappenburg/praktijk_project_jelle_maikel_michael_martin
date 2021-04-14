@@ -1,1 +1,301 @@
-   
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    min-height: 100vh;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #BFBFBF26;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+header,
+footer
+{
+    padding: 0 150px;
+}
+
+header,
+footer
+{
+    flex: none;
+}
+
+main
+{
+    flex: 1;
+    height: 100%;
+    position: relative;
+    background-color: #bfbfbf26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav
+{
+
+    height: 100%;
+    width: 263px;
+    position: absolute;
+    top: -100px;
+}
+
+.nav-sticky
+{
+    height: 476px;
+    width: 100%;
+    background-color: #E10600BF;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.nav-sticky ul
+{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.nav-sticky ul li
+{
+    margin-bottom: 10px;
+}
+
+#section-one
+{
+    height: 764px;
+    width: 100%;
+    background-color: #BFBFBF26;
+    padding: 0 150px;
+}
+
+#section-one .section-block
+{
+
+}
+
+.banner
+{
+    width: 100%;
+    height: 350px;
+    z-index: 1;
+}
+
+.banner img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#section-one .section-block .banner
+{
+
+}
+
+#section-one .section-block .banner img
+{
+
+}
+
+#section-one .section-block .block-text
+{
+    height: 150px;
+    width: 600px;
+    margin-top: 170px;
+    margin-left: 600px;
+}
+
+#section-one .section-block .block-text p
+{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+#section-two
+{
+    height: 964px;
+    width: 100%;
+    background-color: #BFBFBF4D;
+    padding: 0 150px;
+}
+
+#section-two .section-header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-two .header-title
+{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#section-two .text-wrapper
+{
+    margin-top: 170px;
+    margin-left: 600px;
+    width: 50%;
+    margin-top: 120px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#section-two .text-wrapper .text-1
+{
+    margin-bottom: 60px;
+}
+
+#section-two .text-wrapper .text-2 ul
+{
+    list-style-type: "- ";
+}
+
+
+
+
+
+
+#section-three
+{
+    height: 964px;
+    width: 100%;
+    background-color: #BFBFBF26;
+    padding: 0 150px;
+}
+
+#section-three .section-header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-three .header-title
+{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#section-three .text-wrapper
+{
+    margin-top: 170px;
+    margin-left: 600px;
+    height: 150px;
+    width: 25%;
+    margin-top: 120px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#section-three .text-wrapper .wrap
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+#section-four
+{
+    height: 564px;
+    width: 100%;
+    background-color: #BFBFBF4D;
+    padding: 0 150px;
+}
+
+#section-four .section-block
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#section-four .section-block .block-text
+{
+    width: 400px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#section-four .section-block button
+{
+    height: 50px;
+    width: 270px;
+    background-color: #E10600;
+    border: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+

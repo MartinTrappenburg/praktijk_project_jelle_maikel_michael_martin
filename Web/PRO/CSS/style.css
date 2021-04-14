@@ -13,6 +13,7 @@ body
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     background-color: #BFBFBF26;
@@ -36,15 +37,22 @@ footer
     padding: 0 150px;
 }
 
+main
+{
+    height: 100%;
+    flex: 1;
+}
+
 .andere_opleidingen
 {
-    width: 200px;
     height: 20px;
+    width: 200px;
     margin-top: 20px;
 }
 
 .andere_opleidingen a
 {
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;

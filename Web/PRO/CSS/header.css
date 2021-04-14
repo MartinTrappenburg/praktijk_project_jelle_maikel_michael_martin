@@ -10,12 +10,20 @@ header
 
 .logo
 {
-    font-size: 24px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.logo svg
+{
+    height: 100%;
+    width: 100%;
 }
 
 nav
 {
-    width: 250px;
+    width: 350px;
     font-size: 18px;
 }
 
@@ -24,4 +32,15 @@ nav ul
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav ul li
+{
+    transition: color 0.25s;
+    transition-timing-function: ease-in;
+}
+
+nav ul li:hover
+{
+    color: black;
 }
